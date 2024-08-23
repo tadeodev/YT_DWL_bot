@@ -12,7 +12,7 @@ const token = process.env.BOT_API_KEY;
 const bot = new TelegramBot(token,{suppressDeprecationWarnings: true, polling: true});
 
 //config of the anime scrapper
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 const fs = require('fs');
 
 //-----------------------------------//
